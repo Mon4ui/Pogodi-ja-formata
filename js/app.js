@@ -5,29 +5,53 @@ var dragDropSampleApp = angular.module("dragDropSampleApp", []);
 dragDropSampleApp.factory("draggableData", function () {
         var data = [
             {
-                fruitname: "apple",
-                fruitimg: "apple.png"
+                fruitname: "bafalo",
+                fruitimg: "Bafalo.png"
         }, {
-                fruitname: "banana",
-                fruitimg: "banana.png"
+            fruitname: "buv",
+            fruitimg: "Buv.png"
         }, {
-                fruitname: "cherry",
-                fruitimg: "cherry.png"
+                fruitname: "elen",
+                fruitimg: "Elen.png"
         }, {
-                fruitname: "greenapple",
-                fruitimg: "greenapple.png"
+                fruitname: "kit",
+                fruitimg: "Kit.png"
         }, {
-                fruitname: "kiwi",
-                fruitimg: "kiwi.png"
+                fruitname: "krokodil",
+                fruitimg: "Krokodil.png"
         }, {
-                fruitname: "peach",
-                fruitimg: "peach.png"
+                fruitname: "kuche",
+                fruitimg: "Kuche.png"
         }, {
-                fruitname: "strawberry",
-                fruitimg: "strawberry.png"
+                fruitname: "lastovica",
+                fruitimg: "Lastovica.png"
         }, {
-                fruitname: "watermelon",
-                fruitimg: "watermelon.png"
+                fruitname: "lisica",
+                fruitimg: "Lisica.png"
+        }, {
+                fruitname: "majmun",
+                fruitimg: "Majmun.png"
+        } ,  {
+                fruitname: "meduza",
+                fruitimg: "Meduza.png"
+        }, {
+                fruitname: "pchela",
+                fruitimg: "Pchela.png"
+        }, {
+                fruitname: "pingvin",
+                fruitimg: "Pingvin.png"
+        }, {
+                fruitname: "slon",
+                fruitimg: "Slon.png"
+        }, {
+                fruitname: "zebra",
+                fruitimg: "Zebra.png"
+        }, {
+                fruitname: "zhelka",
+                fruitimg: "Zhelka.png"
+        }, {
+                fruitname: "zirafa",
+                fruitimg: "Zirafa.png"
         }
     ];
 
@@ -37,30 +61,54 @@ dragDropSampleApp.factory("draggableData", function () {
 dragDropSampleApp.factory("droppableData", function () {
     var data = [
         {
-            fruitname: "apple",
-            fruitimg: "apple_callout.png"
-        }, {
-            fruitname: "banana",
-            fruitimg: "banana_callout.png"
-        }, {
-            fruitname: "cherry",
-            fruitimg: "cherry_callout.png"
-        }, {
-            fruitname: "greenapple",
-            fruitimg: "greenapple_callout.png"
-        }, {
-            fruitname: "kiwi",
-            fruitimg: "kiwi_callout.png"
-        }, {
-            fruitname: "peach",
-            fruitimg: "peach_callout.png"
-        }, {
-            fruitname: "strawberry",
-            fruitimg: "strawberry_callout.png"
-        }, {
-            fruitname: "watermelon",
-            fruitimg: "watermelon_callout.png"
-        }
+            fruitname: "bafalo",
+            fruitimg: "Bafalo2.png"
+    }, {
+        fruitname: "buv",
+        fruitimg: "Buv2.png"
+    }, {
+            fruitname: "elen",
+            fruitimg: "Elen2.png"
+    }, {
+            fruitname: "kit",
+            fruitimg: "Kit2.png"
+    }, {
+            fruitname: "krokodil",
+            fruitimg: "Krokodil2.png"
+    }, {
+            fruitname: "kuche",
+            fruitimg: "Kuche2.png"
+    }, {
+            fruitname: "lastovica",
+            fruitimg: "Lastovica2.png"
+    }, {
+            fruitname: "lisica",
+            fruitimg: "Lisica2.png"
+    }, {
+            fruitname: "majmun",
+            fruitimg: "Majmun2.png"
+    } ,  {
+            fruitname: "meduza",
+            fruitimg: "Meduza2.png"
+    }, {
+            fruitname: "pchela",
+            fruitimg: "Pchela2.png"
+    }, {
+            fruitname: "pingvin",
+            fruitimg: "Pingvin2.png"
+    }, {
+            fruitname: "slon",
+            fruitimg: "Slon2.png"
+    }, {
+            fruitname: "zebra",
+            fruitimg: "Zebra2.png"
+    }, {
+            fruitname: "zhelka",
+            fruitimg: "Zhelka2.png"
+    }, {
+            fruitname: "zirafa",
+            fruitimg: "Zirafa2.png"
+    }
     ];
 
     return data;
